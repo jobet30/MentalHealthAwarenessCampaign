@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         height: '100vh',
         overflow: 'hidden',
         color: '#fff',
-        background: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/hero.jpg) center/cover no-repeat',
+        background: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/hero.jpg) center/cover no-repeat',
     },
     videoBackground: {
         width: '100%',

@@ -58,7 +58,7 @@ const EventsSection = () => {
 
     useEffect(() => {
         const getEvents = async () => {
-            const fetchedHTML = await fetchMarkdown('/content/events.md');
+            const fetchedHTML = await fetchMarkdown('../content/events.md');
             if (fetchedHTML) {
                 setEventsHTML(fetchedHTML);
             } else {

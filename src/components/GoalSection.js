@@ -54,7 +54,7 @@ const GoalsSection = () => {
 
     useEffect(() => {
         const getGoals = async () => {
-            const fetchedHTML = await fetchMarkdown('/content/goals.md');
+            const fetchedHTML = await fetchMarkdown('../content/goals.md');
             if (fetchedHTML) {
                 setGoalsHTML(fetchedHTML);
             } else {
